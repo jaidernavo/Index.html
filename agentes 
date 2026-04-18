@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>KASHIN · Cobradores</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --verde:    #00C48C;
+  --verde-d:  #009E72;
+  --azul:     #0D1F2D;
+  --negro:    #070C10;
+  --gris1:    #0E1A24;
+  --gris2:    #142030;
+  --gris3:    #1C2D3A;
+  --gris4:    #243648;
+  --texto:    #E8ECF0;
+  --texto2:   #7A9BAD;
+  --texto3:   #4A6578;
+  --acento:   #FFD166;
+  --rojo:     #FF5A5F;
+  --naranja:  #FF9A3C;
+  --wa:       #25D366;
+  --r: 16px; --r-sm: 10px;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html,body{height:100%;overflow:hidden;}
+body{font-family:'DM Sans',sans-serif;background:var(--negro);color:var(--texto);font-size:15px;}
+
+/* LOGIN */
+#login-screen{position:fixed;inset:0;z-index:9999;
+  background:linear-gradient(160deg,#071420 0%,#0D1F2D 40%,#071a10 100%);
+  display:flex;align-items:center;justify-content:center;padding:24px;}
+.login-box{width:100%;max-width:400px;background:var(--gris1);
+  border:1px solid rgba(0,196,140,0.15);border-radius:28px;padding:44px 28px;
